@@ -1,6 +1,6 @@
 # Nitrobolic
 
-A responsive e-commerce interface built using **CSS Grid Areas**. This project demonstrates how to structure a complex page layout that seamlessly adapts from desktop to mobile devices.
+A responsive e-commerce interface built using **CSS Grid Areas**. This project was developed as part of a Full Stack Development Course.
 
 ## 📝 Project Overview
 

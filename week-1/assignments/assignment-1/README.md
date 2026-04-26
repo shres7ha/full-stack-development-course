@@ -14,4 +14,11 @@ A clean, semantic HTML5 project featuring reviews of popular television series. 
 
 ## 🏃 How to Run the Project
 
-Since this is a static HTML project, simply download the index.html and open it in any modern browser.
+1. **Clone the repository:**
+   git clone https://github.com/shres7ha/full-stack-development-course.git
+
+2. **Navigate to the directory:**
+   Visit the assignment-1 folder inside full-stack-development/week-1/assignments
+
+3. **Open the project:**
+   Open index.html in any modern browser.

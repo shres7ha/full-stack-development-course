@@ -4,7 +4,7 @@ A semantic HTML5 landing page featuring a hero section and interactive UI compon
 
 ## 📝 Project Overview
 
-**Nitrobolic** is a high-energy landing page designed for the fitness supplement industry. The project emphasizes the use of Flexbox for responsive structuring and CSS transitions/animations to create an engaging product showcase.
+**Nitrobolic** is a clean landing page designed to market fitness supplements. The project emphasizes the use of Flexbox for responsive structuring and CSS transitions/animations to create an engaging product showcase.
 
 ## 🚀 Features
 
