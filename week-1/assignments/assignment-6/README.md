@@ -4,7 +4,7 @@ A clean, responsive personal portfolio website built with semantic HTML5 and cus
 
 ## 📝 Project Overview
 
-**Nitrobolic** is a clean landing page designed to market fitness supplements. It focuses on modern CSS layout technique (Flexbox) and the practical application of image-fitting properties.
+**Shres7ha** is a clean, responsive personal portfolio. It focuses on modern CSS layout technique.
 
 ## 🚀 Features
 
