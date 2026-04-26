@@ -1,7 +1,9 @@
+/* Variable */
 :root {
   --color-primary-red: #e21e26;
 }
 
+/* Base */
 * {
   margin: 0;
   padding: 0;
@@ -14,52 +16,7 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
-.card {
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  border-radius: 1rem;
-}
-
-.flex {
-  display: flex;
-}
-
-.grid {
-  display: grid;
-}
-
-.flex-col {
-  flex-direction: column;
-}
-
-.justify-between {
-  justify-content: space-between;
-}
-
-.gap-2 {
-  gap: 2rem;
-}
-
-.mt-1 {
-  margin-top: 1rem;
-}
-
-.mt-2 {
-  margin-top: 2rem;
-}
-
-.p-2 {
-  padding: 2rem;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.logo {
-  font-weight: 700;
-  color: var(--color-primary-red);
-}
-
+/* Layout */
 .layout {
   min-height: 100vh;
   gap: 1.5rem;
@@ -75,6 +32,30 @@ body {
   grid-area: header;
 }
 
+.sidebar {
+  grid-area: sidebar;
+}
+
+.main {
+  grid-area: main;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+/* Component */
+.card {
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+}
+
+.logo {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--color-primary-red);
+}
+
 .nav-link {
   color: black;
 }
@@ -83,17 +64,9 @@ body {
   color: var(--color-primary-red);
 }
 
-.sidebar {
-  grid-area: sidebar;
-}
-
 .filter-list:hover {
   cursor: pointer;
   color: var(--color-primary-red);
-}
-
-.main {
-  grid-area: main;
 }
 
 .products {
@@ -112,10 +85,7 @@ body {
   transform: translateY(-3px);
 }
 
-.footer {
-  grid-area: footer;
-}
-
+/* Responsive */
 @media (max-width: 768px) {
   .layout {
     grid-template-areas:
@@ -125,16 +95,37 @@ body {
       'footer';
     grid-template-columns: 1fr;
   }
+}
 
-  .main {
-    padding: 1rem;
-  }
+/* Utility */
+.mt-1 {
+  margin-top: 1rem;
+}
 
-  .header {
-    padding: 1rem;
-  }
+.mt-2 {
+  margin-top: 2rem;
+}
 
-  .sidebar {
-    padding: 1rem;
-  }
+.p-2 {
+  padding: 2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.gap-2 {
+  gap: 2rem;
 }
