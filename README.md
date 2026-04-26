@@ -19,7 +19,7 @@ A clean, responsive personal portfolio website built with semantic HTML5 and cus
    git clone https://github.com/shres7ha/full-stack-development-course.git
 
 2. **Navigate to the directory:**
-   Visit the assignment-6 folder inside full-stack-development/week-1/assignments
+   Visit the cloned directory.
 
 3. **Open the project:**
    Open index.html in any modern browser.
