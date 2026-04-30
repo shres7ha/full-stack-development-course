@@ -1,25 +1,27 @@
 # Nitrobolic
 
-A responsive e-commerce interface built using **CSS Grid Areas**. This project was developed as part of a Full Stack Development Course.
+Explore premium supplements.
 
 ## 📝 Project Overview
 
-**Nitrobolic** is a responsive e-commerce interface. Unlike Flexbox, which is primarily one-dimensional, this project uses `grid-template-areas` to define a high-level page "blueprint" and `auto-fill` logic to create product catalog.
+**Nitrobolic** is a responsive e-commerce interface. Unlike Flexbox, which is primarily one-dimensional, this project utilizes CSS Grid to create a complex 2D layout.
 
 ## 🛠️ Features
 
-- **Semantic Layout:** High-level organization using `<header>`, `<aside>`, `<main>`, and `<footer>`.
-- **CSS Grid Areas:** Mapping the HTML structure to a visual layout using `grid-template-areas` (Header, Sidebar, Main, Footer).
-- **Responsive:** Using Media Queries to redefine the grid structure entirely for mobile users.
-- **Utility-First Styling:** Utilizing reusable CSS classes for spacing and display modes to maintain clean, DRY code.
+- **CSS Grid:** Defines a high level page blueprint using `grid-template-areas` (Header, Sidebar, Main, Footer).
+- **Responsive:** Utilizes `@media` to redefine the grid structure for mobile users.
 
-## 🏃 How to Run the Project
+## 🌐 View Live
 
-1. **Clone the repository:**
+**[Visit](https://shres7ha.github.io/full-stack-development-course/week-1/assignments/assignment-5/index.html)**
+
+## 🏃 Run Locally
+
+1. **Clone:**
    git clone https://github.com/shres7ha/full-stack-development-course.git
 
-2. **Navigate to the directory:**
-   Visit the assignment-5 folder inside full-stack-development/week-1/assignments
+2. **Navigate:**
+   Go to the assignment-5 folder located inside `full-stack-development-course/week-1/assignments`
 
-3. **Open the project:**
-   Open index.html in any modern browser.
+3. **Open:**
+   Launch `index.html` in any modern browser.

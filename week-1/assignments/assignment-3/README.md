@@ -1,24 +1,26 @@
 # Nitrobolic
 
-A semantic HTML5 landing page featuring a hero section and a dynamic "New Arrivals" slider for a premium supplement brand. This project was developed as part of a Full Stack Development Course.
+Explore premium supplements.
 
 ## 📝 Project Overview
 
-**Nitrobolic** is a clean landing page designed to market fitness supplements. The project emphasizes the use of Flexbox for responsive structuring and CSS Keyframe Animations to create an engaging product showcase without the need for JavaScript.
+**Nitrobolic** is a landing page similar to assignment-2 but instead of Shop has a New Arrivals section that utilizes CSS keyframes to create an engaging product showcase without the need for JavaScript.
 
 ## 🚀 Features
 
-- **Semantic HTML5:** Built with structural tags like `<header>`, `<main>`, `<section>`, `<article>`, and `<footer>` for better accessibility and SEO.
-- **Flexbox Layout:** Utilizes a custom utility-first Flexbox system to handle complex alignment and spacing across the page.
-- **Auto-Sliding Carousel:** A pure CSS product slider in the "New Arrivals" section utilizing @keyframes and translateX for a smooth, interactive user experience.
+- **Auto-Sliding Carousel:** A pure CSS product slider utilizing `@keyframes` and `translateX` for a smooth, interactive user experience.
 
-## 🏃 How to Run the Project
+## 🌐 View Live
 
-1. **Clone the repository:**
+**[Visit](https://shres7ha.github.io/full-stack-development-course/week-1/assignments/assignment-3/index.html)**
+
+## 🏃 Run Locally
+
+1. **Clone:**
    git clone https://github.com/shres7ha/full-stack-development-course.git
 
-2. **Navigate to the directory:**
-   Visit the assignment-3 folder inside full-stack-development/week-1/assignments
+2. **Navigate:**
+   Go to the assignment-3 folder located inside `full-stack-development-course/week-1/assignments`
 
-3. **Open the project:**
-   Open index.html in any modern browser.
+3. **Open:**
+   Launch `index.html` in any modern browser.

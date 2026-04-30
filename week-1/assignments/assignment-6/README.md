@@ -1,25 +1,28 @@
 # Personal Portfolio Website
 
-A clean, responsive personal portfolio website built with semantic HTML5 and custom CSS. This project was developed as part of a Full Stack Development Course.
+A personal portfolio.
 
 ## 📝 Project Overview
 
-**Shres7ha** is a clean, responsive personal portfolio. It focuses on modern CSS layout technique.
+**Shres7ha** is a clean, responsive personal portfolio that utilizes semantic HTML and modern CSS to create a structured and professional user experience.
 
 ## 🚀 Features
 
-- **Responsive Design:** Optimized for both desktop and mobile viewing using CSS Flexbox and Media Queries.
 - **Semantic HTML:** Built with modern web standards (`<header>`, `<main>`, `<section>`, `<nav>`, `<footer>`) for better SEO and accessibility.
-- **Sticky Navigation:** A user-friendly navigation bar that stays at the top.
-- **Modern UI:** Features a clean aesthetic with custom box shadows, card layouts.
+- **Modern UI:** Features a clean aesthetic UI with custom box shadows, card layouts.
+- **Responsive Design:** Optimized for both desktop and mobile viewing using CSS Flexbox and Media Queries.
 
-## 🏃 How to Run the Project
+## 🌐 View Live
 
-1. **Clone the repository:**
+**[Visit](https://shres7ha.github.io/full-stack-development-course/week-1/assignments/assignment-6/index.html)**
+
+## 🏃 Run Locally
+
+1. **Clone:**
    git clone https://github.com/shres7ha/full-stack-development-course.git
 
-2. **Navigate to the directory:**
-   Visit the assignment-6 folder inside full-stack-development/week-1/assignments
+2. **Navigate:**
+   Go to the assignment-6 folder located inside `full-stack-development-course/week-1/assignments`
 
-3. **Open the project:**
-   Open index.html in any modern browser.
+3. **Open:**
+   Launch `index.html` in any modern browser.
