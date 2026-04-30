@@ -1,0 +1,10 @@
+.button {
+  display: inline-block;
+  background-color: var(--color-primary);
+  color: white;
+  border-radius: 0.5rem;
+}
+
+.button:hover {
+  background-color: var(--color-secondary);
+}

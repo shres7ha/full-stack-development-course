@@ -1,0 +1,13 @@
+.logo {
+  color: var(--color-primary);
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.nav-link {
+  color: black;
+}
+
+.nav-link:hover {
+  color: var(--color-primary);
+}
