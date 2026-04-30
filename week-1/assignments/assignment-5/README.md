@@ -6,7 +6,7 @@ Explore premium supplements.
 
 **Nitrobolic** is a responsive e-commerce interface. Unlike Flexbox, which is primarily one-dimensional, this project utilizes CSS Grid to create a complex 2D layout.
 
-## 🛠️ Features
+## 🚀 Features
 
 - **CSS Grid:** Defines a high level page blueprint using `grid-template-areas` (Header, Sidebar, Main, Footer).
 - **Responsive:** Utilizes `@media` to redefine the grid structure for mobile users.
