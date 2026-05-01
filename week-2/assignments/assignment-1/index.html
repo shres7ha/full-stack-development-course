@@ -1,0 +1,45 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../../../reset.css">
+    <link rel="stylesheet" href="../../../components.css">
+    <link rel="stylesheet" href="../../../utilities.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>shres7ha | Week 2 | Assignment 1</title>
+</head>
+
+<body class="min-h-screen flex flex-col justify-center items-center gap-2">
+    <main class="app-card card px-2 py-2 flex flex-col gap-2">
+        <section class="text-center">
+            <h1>Weather Finder</h1>
+
+            <p class="mt-1">Search weather in real time</p>
+        </section>
+        <section>
+            <label for="city-input">City</label>
+
+            <input id="city-input" type="text" placeholder="Enter a city name" />
+
+            <button class="mt-1 cursor-pointer" id="search-button" type="button">Search</button>
+
+            <p class="mt-1 text-center" id="status"></p>
+        </section>
+        <section class="text-center" id="weather-result" hidden></section>
+    </main>
+
+    <footer class="text-center">
+        <p>
+            <small>&copy; 2026 shres7ha</small>
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -11,7 +11,7 @@ My full stack development course journey.
 1. **Clone:**
    git clone https://github.com/shres7ha/full-stack-development-course.git
 
-2. **Navigate**
+2. **Navigate:**
    Go to the cloned directory.
 
 3. **Open:**
