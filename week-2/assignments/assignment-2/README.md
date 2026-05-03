@@ -1,16 +1,35 @@
-# React + Vite
+# 📝 Weather Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Search weather in real time.
 
-Currently, two official plugins are available:
+## 📝 Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**Weather Finder** is a dynamic web application similar to assignment-1 but build using React.
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Real-Time Data Fetching:** Integrates with a third-party API to deliver instant updates on temperature, humidity, and weather conditions.
+- **Error Handling & Feedback:** Includes validation for empty input and "City not found" scenarios to ensure a smooth user experience using react state.
+- **Reusable Components & Utility CSS:** Leverages a modular component structure and utility-first CSS to ensure the codebase is scalable, maintainable, and easy to style.
 
-## Expanding the ESLint configuration
+## 🏃 Run Locally
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Clone:**
+   git clone https://github.com/shres7ha/full-stack-development-course.git
+
+2. **Navigate:**
+   Go to the assignment-2 folder located inside `full-stack-development-course/week-2/assignments`
+
+3. **Install Dependencies:**
+   - Ensure you have Node.js installed.
+   - Open the folder in an IDE.
+   - Run the command: `npm install`
+
+4. **Configure API Key:**
+   - Locate the variable for the API key inside the `.env.example` file (`VITE_OPEN_WEATHER_API_KEY=YOUR_OPEN_WEATHER_API_KEY`).
+   - Replace the placeholder with your actual key from [OpenWeather](https://openweathermap.org/).
+   - Rename `.env.example` to `.env`
+
+5. **Run:**
+   - Run the command: `npm run dev`
+   - Open the link shown on your terminal in any modern browser (e.g., `http://localhost:5174/`).

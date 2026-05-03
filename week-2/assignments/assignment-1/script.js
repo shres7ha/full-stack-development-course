@@ -1,4 +1,4 @@
-const API_KEY = '' // Your Open Weather Map API Key
+const API_KEY = 'YOUR_OPEN_WEATHER_API_KEY'
 const BASE_URL = 'https://api.openweathermap.org'
 const ICON_BASE_URL = 'https://openweathermap.org/img/wn'
 

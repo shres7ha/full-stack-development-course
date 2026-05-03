@@ -1,5 +1,5 @@
 const TypographySmall = ({ children, className = '' }) => {
-  return <small className={`text-slate-400 ${className}`}>{children}</small>
+  return <small className={`${className}`}>{children}</small>
 }
 
 export { TypographySmall }

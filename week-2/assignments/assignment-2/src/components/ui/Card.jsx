@@ -1,5 +1,5 @@
 const Card = ({ children, className = '' }) => {
-  return <div className={`bg-white shadow-md ${className}`}>{children}</div>
+  return <div className={`${className}`}>{children}</div>
 }
 
 export { Card }
