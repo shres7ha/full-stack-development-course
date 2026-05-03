@@ -1,4 +1,4 @@
-# 📝 Weather Finder
+# Weather Finder
 
 Search weather in real time.
 

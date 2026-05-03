@@ -1,4 +1,4 @@
-# 📝 Cinephile
+# Cinephile
 
 Search for your favorite movies in real time.
 
