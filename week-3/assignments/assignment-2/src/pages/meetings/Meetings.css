@@ -1,0 +1,21 @@
+.meetings {
+  padding: 2rem;
+}
+
+.meetings-nav {
+  margin-top: 2rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.details,
+.participants {
+  padding: 0.5rem 1rem;
+  background-color: var(--primary-blue);
+  color: var(--surface-white);
+  border-radius: 0.5rem;
+}
+
+.meeting-content {
+  padding: 2rem;
+}

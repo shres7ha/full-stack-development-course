@@ -1,0 +1,15 @@
+.not-found {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  min-height: 100vh;
+}
+
+.back-to-home {
+  background-color: var(--primary-blue);
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  color: var(--surface-white);
+}

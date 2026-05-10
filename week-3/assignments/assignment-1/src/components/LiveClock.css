@@ -1,0 +1,28 @@
+.clock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  color: #111827;
+}
+
+.day {
+  font-size: 0.9rem;
+}
+
+.time {
+  font-variant-numeric: tabular-nums;
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.date {
+  font-size: 1rem;
+}
+
+@media (max-width: 480px) {
+  .time {
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,26 @@
+.calendar {
+  padding: 2rem;
+}
+
+.view-buttons {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.view-button {
+  padding: 0.5rem 1rem;
+  color: var(--primary-blue);
+  border: 0.15rem solid var(--primary-blue);
+  border-radius: 0.5rem;
+  font-weight: 600;
+}
+
+.view-button.active {
+  background-color: var(--primary-blue);
+  color: var(--surface-white);
+}
+
+.view {
+  margin-top: 2rem;
+}
