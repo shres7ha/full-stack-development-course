@@ -1,0 +1,10 @@
+.footer-container {
+  border-top: 0.15rem solid var(--border-light);
+  background-color: var(--bg-main);
+  padding: 1rem;
+  text-align: center;
+}
+
+.copyright {
+  color: var(--text-muted);
+}

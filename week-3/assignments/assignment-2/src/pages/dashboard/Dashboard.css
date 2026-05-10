@@ -1,0 +1,134 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.dashboard-description {
+  margin-top: 0.5rem;
+}
+
+.quick-actions {
+  display: flex;
+  gap: 2rem;
+}
+
+.card {
+  background-color: var(--surface-white);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  padding: 2rem;
+  width: 100%;
+}
+
+.icon-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  width: fit-content;
+}
+
+.start {
+  background-color: var(--primary-blue);
+}
+
+.join {
+  background-color: var(--success-green);
+}
+
+.schedule {
+  background-color: var(--warning-orange);
+}
+
+.card-title {
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}
+
+.card-description {
+  margin-top: 0.3rem;
+  font-size: 0.9rem;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  color: var(--surface-white);
+}
+
+.quick-actions-button {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.start-button {
+  background-color: var(--primary-blue);
+}
+
+.join-button {
+  background-color: var(--success-green);
+}
+
+.schedule-button {
+  background-color: var(--warning-orange);
+}
+
+.upcoming-meetings {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.view-all {
+  color: var(--primary-blue);
+}
+
+.upcoming-meeting {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.upcoming-meeting-left {
+  display: flex;
+  gap: 1rem;
+}
+
+.project {
+  background-color: var(--primary-blue);
+}
+
+.marketing {
+  background-color: var(--success-green);
+}
+
+.team {
+  background-color: var(--warning-orange);
+}
+
+.upcoming-meeting-card-title {
+  font-size: 1rem;
+}
+
+.upcoming-meeting-card-description {
+  margin-top: 0.3rem;
+  font-size: 0.9rem;
+}
+
+.upcoming-meeting-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.join-upcoming-button {
+  background-color: var(--primary-blue);
+}
